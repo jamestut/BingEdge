@@ -1,0 +1,16 @@
+{
+  "name": "Bing UA",
+  "description": "Impersonate Bing as MS Edgium",
+  "version": "0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.bing.com/*",
+    "https://bing.com/*"
+  ]
+}
