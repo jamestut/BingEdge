@@ -1,6 +1,6 @@
 {
   "name": "Bing UA",
-  "description": "Impersonate Bing as MS Edgium",
+  "description": "Impersonate as MS Edgium when visiting Bing",
   "version": "0.1",
   "manifest_version": 2,
   "background": {
