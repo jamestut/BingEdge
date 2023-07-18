@@ -4,8 +4,21 @@
   "version": "0.1",
   "manifest_version": 2,
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.bing.com/*",
+        "https://bing.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
   "permissions": [
     "activeTab",
     "webRequest",
